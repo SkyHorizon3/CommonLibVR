@@ -17,6 +17,7 @@ namespace RE
 	{
 	public:
 		inline static constexpr auto      RTTI = RTTI_TweenMenu;
+		inline static constexpr auto      VTABLE = VTABLE_TweenMenu;
 		constexpr static std::string_view MENU_NAME = "TweenMenu";
 
 		struct RUNTIME_DATA

@@ -91,7 +91,7 @@ namespace RE
 	void InventoryChanges::RemoveAllItems(TESObjectREFR* a_ref, TESObjectREFR* a_moveToRef, bool a_arg4, bool a_keepOwnership, bool a_arg6)
 	{
 		using func_t = decltype(&InventoryChanges::RemoveAllItems);
-		static REL::Relocation<func_t> func{ RELOCATION_ID(15878, 441567) };
+		static REL::Relocation<func_t> func{ RELOCATION_ID(15878, AE_CHECK(SKSE::RUNTIME_SSE_1_6_1130, 16118, 441567)) };
 		return func(this, a_ref, a_moveToRef, a_arg4, a_keepOwnership, a_arg6);
 	}
 
